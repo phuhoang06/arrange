@@ -12,7 +12,6 @@ public class InsertionSortDemo {
             int key = array[i];
             int j = i - 1;
 
-            // Di chuyển các phần tử của array[0..i-1], lớn hơn key, đến vị trí trước vị trí hiện tại của chúng
             while (j >= 0 && array[j] > key) {
                 array[j + 1] = array[j];
                 j = j - 1;
